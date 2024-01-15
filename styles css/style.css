@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* nav section starts */
+.nav-container{
+    padding-top: 25px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.nav-title{
+    font-size: 1.25rem;
+    color: #3A3A3A;
+}
+
+.nav-manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-manu a{
+    margin-right: 50px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-items a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.nav-items {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items img {
+    width: 16px;
+}
+.nav-items fa-brands {
+    font-size: 13px;
+}
+/* nav section ends */
+
+
+/* header section start */
+
+.header-section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-title h2{
+    color: #3A3A39;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 275px;
+}
+
+.header-title {
+    width: 50%;
+}
+
+.header-image {
+    width: 25%;
+}
+
+.header-image img {width: 95%;}
+
+.header-title p {
+    width: 490px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.header-title button {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #fff;
+    border: navajowhite;
+    padding: 4px 14px;
+}
+/* header section ends */
+
+/* main social icons sections stars */
+
+.social-icons {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 54px;
+}
+/* main social icons sections ends */
+
+
